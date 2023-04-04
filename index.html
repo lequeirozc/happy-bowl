@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <title>Happy Bowl</title>
+        <meta charset="UTF-8">
+        <meta name="description" content="California based restaurant. Building healthier communities by connecting people to real food.">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="css.css" type="text/css" rel="stylesheet" />
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+        <link rel="icon" href="img-logo-icon-02.svg" type="image/svg+xml">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+        <header>
+
+            <video autoplay loop muted plays-inline src="video-01.mp4" type="video/mp4" class="bg-video"></video>
+
+            <nav>
+               <img src="img-logo-white.svg" alt="Happy Bowl" class="logo">
+                <ul class="links">
+                    <li><a href="#" class="active">Home</a></li>
+                    <li><a href="about-page.html">About</a></li>
+                    <li><a href="menu-page.html">Menu</a></li>
+                    <li><a href="contact-page.html">Contact</a></li>
+                    <li><a href="#" class="order">Order Now</a></li>
+                </ul>
+            </nav>
+
+            <div class="content">
+                <h1>Healthy food</h1>
+                <p>From our home to yours. Connecting people with real food.</p>
+            </div>
+        </header>
+
+
+        <main>
+            <h1>Menu</h1>
+            <div class="popular"><p>Most Popular items</p></div>
+            <div class="menu-cards">
+                <div class="card">
+                    <div class="container">
+                        <img src="img-food-01.png" alt="Name of the Bowl">
+                    </div>
+                    <div class="card-content">
+                        <h3>Item Name</h3>
+                        <p>Lorem ipsum dolor sit amet, lorem ips consectetur adipiscing elit. Nuncti hendrerit mi at nulla.</p>
+                        <div class="button-container">
+                            <button class="decrement" onclick="stepper(this)">-</button>
+                            <input type="number" min="0" max="100" step="1" value="0" class="my-input" readonly>
+                            <button class="increment" onclick="stepper(this)">+</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="container">
+                        <img src="img-food-02.png" alt="Name of the Bowl">
+                    </div>
+                    <div class="card-content">
+                        <h3>Item Name</h3>
+                        <p>Lorem ipsum dolor sit amet, lorem ips consectetur adipiscing elit. Nuncti hendrerit mi at nulla.</p>
+                        <div class="button-container">
+                            <button class="decrement" onclick="stepper(this)">-</button>
+                            <input type="number" min="0" max="100" step="1" value="0" class="my-input" readonly>
+                            <button class="increment" onclick="stepper(this)">+</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="container">
+                        <img src="img-food-03.png" alt="Name of the Bowl">
+                    </div>
+                    <div class="card-content">
+                        <h3>Item Name</h3>
+                        <p>Lorem ipsum dolor sit amet, lorem ips consectetur adipiscing elit. Nuncti hendrerit mi at nulla.</p>
+                        <div class="button-container">
+                            <button class="decrement" onclick="stepper(this)">-</button>
+                            <input type="number" min="0" max="100" step="1" value="0" class="my-input" readonly>
+                            <button class="increment" onclick="stepper(this)">+</button>
+                    </div>
+                </div>
+            </div>
+            </div>
+
+            <button class="view-menu" onclick="window.location.href='#';">View full menu <i class="bi bi-arrow-right"></i></button>
+
+        </main>
+
+
+        <section class="gallery">
+            <div class="gallery-img"><img src="img-gallery-01.png" alt="Pictures of salad bowls on top of flowers and leaves."></div>
+            <div class="gallery-img"><img src="img-gallery-02.png" alt="Pictures of salad bowls on top of flowers and leaves."></div>
+            <div class="gallery-img"><img src="img-gallery-03.png" alt="Pictures of salad bowls on top of flowers and leaves."></div>
+        </section>
+
+        <section class="newsletter">
+            <h3>Join our newsletter</h3>
+            <p>Sign up for exclusive promos, new menu drops, store openings, and more.</p>
+            
+            <form action="#" method="#"> 
+                <div class="notice">
+                    <input type="checkbox">
+                    <span class="notice_copy">I agree to my email address being stored and uses to recieve monthly newsletter.</span>
+                </div>
+                <input type="email" class="form-email" placeholder="Enter your email address" />
+                <button class="form-button">Subscribe</button>
+            </form>
+        </section>
+
+
+        <footer>
+            <div class="ft-container">
+                <img src="img-logo-round.svg" class="logo-footer" alt="Happy Bowl"/>
+
+                <ul>
+                    <li><a href="https://termly.io/resources/templates/privacy-policy-template/">Privacy policy</a></li>
+                    <li><a href="#">Terms + conditions</a></li>
+                    <li><a href="#">Contact us</a></li>
+                    <li><a href="#">FAQs</a></li>
+                </ul>
+                
+            </div>
+			<p class="copyright">© Copyright 2022 | Happy Bowl All Rights Reserved. By Leticia Queiroz Carvalho.</p>
+        </footer>
+    </body>
